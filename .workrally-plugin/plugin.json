@@ -1,0 +1,16 @@
+{
+  "name": "skill-foundry",
+  "version": "0.1.0",
+  "description": "Skill 出厂台：技能库的体检工具。验触发路由（测 skill 装了会不会被叫到）、看关系结构（引用图 / 重复 / 孤岛）、发布前闸门（检查 + 物料 + 打包）。严格只读，不改你的 skill 文件。",
+  "mcpServers": ".mcp.json",
+  "interface": {
+    "displayName": "Skill 出厂台",
+    "shortDescription": "技能库体检：验触发路由、看关系结构、发布前闸门",
+    "developerName": "q2522879285-source",
+    "category": "productivity"
+  },
+  "author": { "name": "q2522879285-source" },
+  "category": "productivity",
+  "license": "MIT",
+  "repository": "https://github.com/q2522879285-source/skill-foundry"
+}

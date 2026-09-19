@@ -1,0 +1,36 @@
+# ── 依赖与构建产物（别人自己装、自己构建）──
+node_modules/
+ui/dist/
+*.tsbuildinfo
+
+# ── WorkRally MCP App 的 IDE 桥接元数据（每台机器自动生成，不入库）──
+.cursor/skills/workrally-mcp-app/
+.cursor/rules/workrally-mcp-app.mdc
+.cursor/rules/workrally-mcp-app-*.mdc
+.codebuddy/skills/workrally-mcp-app/
+.codebuddy/rules/workrally-mcp-app.md
+.codebuddy/rules/workrally-mcp-app-*.md
+.claude/skills/workrally-mcp-app/
+.claude/rules/workrally-mcp-app.md
+.agents/skills/workrally-mcp-app/
+.codex/skills/workrally-mcp-app/
+theme.spec.json
+
+# ── 应用运行时数据 ──
+#
+# 正常落在 ~/.skill-foundry/，不在这里。
+# 但在 Studio 里预览时会被注入到 ./data/，所以一并忽略，
+# 免得把「我扫过哪些库、攒了哪些语料」这类私人数据提交上去。
+data/
+
+# ── 本地打包产物（zip / 物料清单）──
+release/
+
+# ── 编辑器与系统垃圾 ──
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.log
+npm-debug.log*

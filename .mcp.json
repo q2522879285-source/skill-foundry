@@ -1,0 +1,13 @@
+{
+  "skill-foundry": {
+    "command": "node",
+    "args": [
+      "./node_modules/tsx/dist/cli.mjs",
+      "mcp-server/index.ts"
+    ],
+    "capabilities": [
+      "llm",
+      "system"
+    ]
+  }
+}
